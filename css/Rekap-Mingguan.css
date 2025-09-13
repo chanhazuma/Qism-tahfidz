@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 body {
-  background-image: url('../img/logo2.jpg');
+  background-image: url('img/logo2.jpg');
   background-position: center;
   background-size: cover;
   height: 100vh;
