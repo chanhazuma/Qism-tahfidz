@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurora Background</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+    /* ===== Styling body agar background penuh layar ===== */
+    body {
+      margin: 0;               /* hapus margin bawaan browser */
+      height: 100vh;           /* tinggi = 100% layar */
+      
+      /* Background gradient dengan beberapa warna */
+      background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #22d3ee);
+      
+      /* Gradient diperbesar 6x supaya saat digeser ada efek "aurora" */
+      background-size: 600% 600%;
+      
+      /* Jalankan animasi bernama 'aurora' selama 20 detik, looping */
+      animation: aurora 10s ease infinite;
+    }
+
+    /* ===== Definisi animasi aurora ===== */
+    @keyframes aurora {
+      0%   { background-position: 0% 50%; }   /* posisi awal: kiri tengah */
+      50%  { background-position: 100% 50%; } /* tengah animasi: kanan tengah */
+      100% { background-position: 0% 50%; }   /* akhir animasi: balik ke kiri tengah */
+    }
+    .c {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: min(460px, 100vw);
+      text-align: center;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .j {
+      border: 1px solid #fff;
+      background: #fff;
+      border-radius: 10px;
+      font-family: "Shadows Into Light", cursive;
+      width: 88%;
+      margin-top: 20px;
+      position: relative;
+      padding: 0px;
+      }
+      h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+      }
+      h5 {
+        font-size: 15px;
+        margin-top: 0px;
+      }
+      .t1 {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #f0f0f0;
+        border-radius: 50%;
+        top: 8px;
+        left: 8px;
+      }
+      .t2 {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #f0f0f0;
+        border-radius: 50%;
+        top: 8px;
+        right: 8px;
+      }
+      .t3 {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #f0f0f0;
+        border-radius: 50%;
+        bottom: 8px;
+        left: 8px;
+      }
+      .t4 {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #f0f0f0;
+        border-radius: 50%;
+        bottom: 8px;
+        right: 8px;
+      }
+      .h {
+        width: min(35vw, 161px);
+        height: min(35vw, 161px);
+        margin-top: 10px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #fff;
+        position: relative;
+        left: -110px;
+      }
+      h3 {
+        font-size: 18px;
+        margin: 10px 0 0 0;
+        font-family: "Shadows Into Light", cursive;
+        color: red;
+      }
+      a {
+        font-size: 12px;
+        margin: 0px;
+      }
+      .trgt {
+        position: relative;
+        right: -80px;
+        top: -160px;
+        text-align: left;
+        width: min(55vw, 230px);
+        margin-left: 10px;
+        color: #fff;
+        font-family: "Chewy", system-ui;
+        font-size: 15px;
+      }
+      b {
+        color: red;
+      }
+      .d {
+        position: relative;
+        width: 80%;
+        top: -130px;
+      }
+      .e {
+        position: relative;
+        left: -78px;
+        background: #fff;
+        border-radius: 0 20px 20px 0;
+        box-sizing: content-box;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      .jd {
+        text-align: center;
+        color: red;
+      }
+      li {
+        color: #fff;
+        font-family: "Chewy", system-ui;
+        position: relative;
+        left: -40px;
+        text-align: left
+      }
+      .loc {
+        color: #fff;
+        font-size: 18px;
+      }
+      .lap {
+        position: relative;
+        top: -70px;
+      }
+      .la {
+        font-weight: bold;
+        font-size: 26px;
+      }
+      a {
+        font-family: "Chewy", system-ui;
+      }
+  </style>
+</head>
+<body>
+  <div class="c">
+    <div class="j">
+      <div class="t1"></div>
+      <div class="t2"></div>
+      <div class="t3"></div>
+      <div class="t4"></div>
+      <h2>Tahfidz Camp 2025</h2>
+      <h5>masjid baitussalam</h5>
+    </div>
+    <div class="h">
+      <h3>Rekap Yaumiyah</h3>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzrxs4lvwSciS1jqXSC2iylMbtTGSRFcUSbZVoPWnF_ZNIiw/viewform?usp=dialog"><h4>halaqah 1 >></h4></a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1slFoxqMvh_-c5rdi1wgmCWIRlWn_6A2MQ9H5LglmLrS6Zg/viewform?usp=sharing&ouid=104282566433468052262"><h4>halaqah 2 >></h4></a>
+    </div>
+    <div class="trgt">
+      <p>Di tahfidz camp 2025 ini sesuai kesepakatan para musyrif target harian santri bertahap, yaitu <b>4 halaman</b> pada pekan pertama, <b>5 halaman</b> pada pekan ke 2, <b>6 halaman</b> pada pekan ke 3, dan <b>7 halaman</b> pada pekan ke 4.</p>
+      <h3>hasil rekap?</h3>
+      <a href="https://docs.google.com/spreadsheets/d/1zm-htURdTL-gmZgb0PD2n0jHhb_nfcamTw5-K5rkt8Y/edit?usp=drivesdk">cek di sini! >></a>
+    </div>
+    <div class="d">
+      <h3 class="e"><img src="img/grup.svg">Daftar peserta tahfidz camp 2025</h3>
+      <ul>
+        <li class="jd">halaqah 1 <ol>
+          <li>Muhammad Rayhan Salman Alfarisi</li>
+          <li>Yahya Ar-Rasyid</li>
+          <li>Keola Al-Fattah Putra Hernanda</li>
+          <li>Ahmad Faris Maulana</li>
+          <li>Muhammad Habibi Nur-Rohman</li>
+          <li>Hiroki Aqila Pranaja</li>
+        </ol></li>
+        <li class="jd">halaqah 2<ol>
+          <li>Raya Anugerah Fathurahman</li>
+          <li>Muhammad Akhdan Alafa</li>
+          <li>Rafael Al-Firdaus Setyawan</li>
+          <li>Abdurrahman Fawwaz</li>
+          <li>Fathih Danish Abrisam</li>
+          <li>Muhammad Haffsha</li>
+        </ol></li>
+      </ul>
+    </div>
+     <div class="d">
+      <h3 class="e"><img src="img/location.svg">Lokasi tahfidz camp 2025</h3>
+      <ul>
+        <li><a href="https://share.google/S8shvHdzDYQoBaOkQ" class="loc">masjid baitussalam >></a></li>
+      </ul>
+    </div>
+    <div class="lap">
+      <h3 class="la">laporan pengeluaran</h3>
+      <a href="#">masukan di sinii!! >></a>
+    </div>
+  </div>
+</body>
+</html>
